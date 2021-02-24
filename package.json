@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/asserjunnila/teiia.fi/issues"
   },
-  "homepage": "https://github.com/asserjunnila/teiia.fi#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

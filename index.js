@@ -3,7 +3,7 @@ const path = require('path');
  
 const app = express();
 
-app.enable("trust proxy"); // only if you're behind a reverse proxy (Heroku, Bluemix, AWS ELB, Nginx, etc)
+app.enable("trust proxy");
  
 
 app.get('*', (req,res) =>{
