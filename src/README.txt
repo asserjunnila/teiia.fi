@@ -1,1 +1,0 @@
-Follow the instuctions on the Telia Styleguide for usage.
